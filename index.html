@@ -11,9 +11,9 @@
     <div class="login-container">
         <div class="login">
             <h2>Login</h2>
-            <form id="loginForm" onsubmit="fazerLogin(); return false;">
-                E-mail: <input type="email" id="email" name="email" required><br>
-                Senha: <input type="password" id="password" name="password" required><br><br>
+            <form id="loginForm" onsubmit="return fazerLogin()">
+                E-mail: <input type="email" id="emailInput" name="email" required><br>
+                Senha: <input type="password" id="passwordInput" name="password" required><br><br>
                 <input type="submit" value="Login">
             </form>
         </div>
