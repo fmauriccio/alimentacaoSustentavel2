@@ -14,9 +14,9 @@ body {
 header {
     background-color: #fff9f9;
     padding: 1rem;
-    width: 100%;
+   width: 100%;
 }
-
+ 
 nav {
     display: flex;
     align-items: center;
@@ -42,8 +42,10 @@ nav ul li a {
 
 .login{
  font-size: 0.8rem;
- padding: 4px;
+ padding: 2px;
  margin-right: 15px;
+ border-color: black;
+ border: 1px solid #333;
 }
 
 main{
@@ -54,8 +56,6 @@ main{
 
 
 button{
-    color: #1be33b;
-    background-color: #d1eed8;
     border-radius: 2px;
     border: none;
     padding: 6px;
